@@ -1,5 +1,10 @@
 .intro {
   @include box-style;
+  @media screen and ($small-up) {
+    //  giving it more breathing room   
+    padding-right: $space;
+    padding-left: $space;
+  }
 }
 
 .intro-title {

@@ -8,8 +8,8 @@
         "An animal",
         "Things that are cold",
         "Insects",
-        "TV Shows",
-        "Things that grow",
+        "Old TV shows",
+        "Things that grow slowly",
         "Fruits",
         "Things that are black",
         "School subjects",
@@ -40,11 +40,11 @@
         "School supplies",
         "Things that are hot",
         "Heroes",
-        "A girl’s name",
+        "A woman’s name",
         "Fears",
         "TV Stars",
         "Colors",
-        "A fish",
+        "Something you can do in 5 minutes or less",
         "Fruits",
         "States",
         "Sports equipment",
@@ -73,12 +73,12 @@
       "prompts":[
         "Sandwiches",
         "Items in a catalog",
-        "World leaders/Poloticians",
+        "World leaders/politicians",
         "School subjects",
         "Excuses for being late",
         "Ice cream flavors",
         "Things that jump/bounce",
-        "Television stars",
+        "Movie stars",
         "Things in a park",
         "Foriegn cities",
         "Stones/Gems",
@@ -95,11 +95,11 @@
         "Fish",
         "Countries",
         "Things that have spots",
-        "Historical Figures",
+        "Historical figures",
         "Something you’re afraid of",
         "Terms of endearment",
         "Items in this room",
-        "Drugs that are abused"
+        "Cartoon characters"
       ]
     },
     {
@@ -130,7 +130,7 @@
         "Cosmetics/Toiletries",
         "Celebrities",
         "Cooking utensils",
-        "Reptiles/Amphibians",
+        "Reptiles",
         "Parks",
         "Leisure activities",
         "Things you’re allergic to"
@@ -180,7 +180,7 @@
         "Diseases",
         "Words associated with money",
         "Items in a vending machine",
-        "Movie Titles",
+        "Movie titles",
         "Games",
         "Things you wear",
         "Beers",
@@ -207,16 +207,16 @@
     {
       "list":"13",
       "prompts":[
-        "Video games",
-        "Electronic gadgets",
+        "Musical instruments",
+        "Snacks",
         "Board games",
         "Things that use a remote",
         "Card games",
         "Internet lingo",
         "Offensive words",
-        "Wireless things",
+        "Things on an airplant",
         "Computer parts",
-        "Software",
+        "Things that have stripes",
         "Websites",
         "Game terms"
       ]
@@ -226,7 +226,7 @@
       "prompts":[
         "Things in a grocery store",
         "Reasons to quit your job",
-        "Things that have stripes",
+        "Things that have spots",
         "Tourist attractions",
         "Diet foods",
         "Things found in a hospital",
@@ -266,7 +266,7 @@
         "Things you shouldn’t touch",
         "Spicy foods",
         "Things at a carnival",
-        "Things you make",
+        "Things you can make at home",
         "Places to hangout",
         "Animal noises",
         "Computer programs"
@@ -283,10 +283,10 @@
         "Things to do on a date",
         "Historic events",
         "Things you store items in",
-        "Things you do everyday",
-        "Things you get in the mail",
+        "Something you do everyday",
+        "Cold places",
         "Things you save up to buy",
-        "Things you sit/on"
+        "Furniture"
       ]
     },
     {
@@ -302,8 +302,8 @@
         "Things that make you smile",
         "Ways to kill time",
         "Things that can get you fired",
-        "Hobbies",
-        "Holiday Activities"
+        "Unusual hobbies",
+        "Holiday activities"
       ]
     }
   ]
