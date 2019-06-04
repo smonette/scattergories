@@ -1,7 +1,6 @@
 .control-element {
   @include box-style;
   text-align: center;
-  padding: $space;
   flex-grow:1;  
   
   &:first-of-type { 
@@ -15,8 +14,8 @@
 
 .time-container {
   display:flex;
-  flex-direction:row;
-  justify-content: space-between;
+  flex-direction:column;
+  justify-content: center;
 }
 .letter {
   font-size: 95px;

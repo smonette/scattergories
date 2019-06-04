@@ -1,7 +1,11 @@
 .intro {
   @include box-style;
-  padding: $space;
 }
-.intro-nav {
+
+.intro-title {
   text-align: center;
+  
+  @media screen and ($small-up) {
+    font-size: 40px;
+  }
 }

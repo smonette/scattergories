@@ -1,0 +1,95 @@
+// VARIABLES
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,800&display=swap');
+
+//  colors
+$red:              #c40b13;
+$white:            #fff;
+$black:            #000;
+$yellow:           #ffbf00;
+  
+// spacing
+$space-sm:         22px;
+$space:            44px;
+
+$border:            2px solid $black;
+
+// breakpoints
+$small-only:      "max-width: 767px";
+$small-up:        "min-width: 768px";
+$up-to-large:     "max-width: 991px";
+$large-only:      "min-width: 992px";
+
+@mixin box-style {
+  border: 4px solid black;
+  background: $white;
+  padding: $space-sm;
+}
+
+// Reset styles
+ol, ul {  
+  @media screen and ($small-only) {
+    padding: $space-sm;
+  }
+}
+ul > li,
+ol > li {
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+// Functional styles
+.mar-bottom {       margin-bottom: $space;}
+.mar-bottom-sm {    margin-bottom: $space-sm;}
+
+.centered {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+// Button Style
+.cta-btn {
+  display:inline-block;
+  padding: $space-sm $space;
+  background-color: $yellow;
+  border-bottom: $border;
+  cursor: pointer;
+  text-decoration: none;
+  color: $black;
+  font-size: 18px;
+}
+
+/* General Layout stuff */
+.content-background {
+  background-color: $red;
+  background-image: url(https://cdn.glitch.com/85876a77-93ee-4d5a-99f4-28248ff087ca%2Fgreen-gobbler.png);
+  padding: $space-sm;
+  border-bottom: $border;
+}
+
+.content-container {
+   @media screen and ($small-up) {
+    max-width: 900px;
+    margin-right: auto;
+    margin-bottom: $space;
+    margin-left: auto;
+    padding: $space-sm;
+  }
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  @media screen and ($small-up) {
+    flex-direction: row;
+  }
+}
+

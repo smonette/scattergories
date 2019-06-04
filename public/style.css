@@ -1,4 +1,14 @@
+/* Variables, mixins, reset, functional css, general layout */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,800&display=swap");
+@media screen and (max-width: 767px) {
+  ol, ul {
+    padding: 22px; } }
+
+ul > li,
+ol > li {
+  margin-bottom: 15px;
+  padding-left: 10px; }
+
 .mar-bottom {
   margin-bottom: 44px; }
 
@@ -25,9 +35,10 @@ body {
   color: #000;
   font-size: 18px; }
 
-/* parent container */
+/* General Layout stuff */
 .content-background {
-  background: #c40b13;
+  background-color: #c40b13;
+  background-image: url(https://cdn.glitch.com/85876a77-93ee-4d5a-99f4-28248ff087ca%2Fgreen-gobbler.png);
   padding: 22px;
   border-bottom: 2px solid #000; }
 
@@ -51,16 +62,19 @@ body {
 .intro {
   border: 4px solid black;
   background: #fff;
-  padding: 44px; }
+  padding: 22px; }
 
-.intro-nav {
+.intro-title {
   text-align: center; }
+  @media screen and (min-width: 768px) {
+    .intro-title {
+      font-size: 40px; } }
 
-/* Prompt List */
+/* Prompt List Template */
 .list-container {
   border: 4px solid black;
   background: #fff;
-  padding: 44px; }
+  padding: 22px; }
   @media screen and (min-width: 768px) {
     .list-container {
       flex-grow: 2;
@@ -78,8 +92,8 @@ body {
 .control-element {
   border: 4px solid black;
   background: #fff;
+  padding: 22px;
   text-align: center;
-  padding: 44px;
   flex-grow: 1; }
   .control-element:first-of-type {
     margin-bottom: 22px; }
@@ -89,8 +103,8 @@ body {
 
 .time-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
+  flex-direction: column;
+  justify-content: center; }
 
 .letter {
   font-size: 95px;
@@ -113,6 +127,10 @@ body {
   font-size: 40px; }
 
 /* Navigate to other cards  */
+footer {
+  background: #fff;
+  text-align: center; }
+
 .nav {
   text-align: center;
   padding: 22px; }
@@ -128,7 +146,3 @@ body {
   padding: 10px;
   display: block;
   color: #000; }
-
-footer {
-  background: #fff;
-  text-align: center; }

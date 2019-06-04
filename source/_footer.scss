@@ -2,3 +2,23 @@ footer {
   background: $white;
   text-align: center;
 }
+
+.nav {
+  text-align: center;
+  padding: $space-sm;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.nav-list li a {
+  padding: 10px;
+  display: block;
+  color: $black;
+}

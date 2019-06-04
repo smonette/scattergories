@@ -1,6 +1,5 @@
 .list-container {
   @include box-style;
-  padding: $space;
   
   @media screen and ($small-up) {
     flex-grow: 2;
@@ -8,10 +7,10 @@
   }
 }
 
-
 .list-name {
   text-align: center;
 }
+
 .prompt-list li {
   padding-left: 10px;
   margin-bottom: 10px;
