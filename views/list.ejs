@@ -1,0 +1,53 @@
+   <% include partials/head.ejs%>
+<div class="content-background mar-bottom">  
+  <div class="content-container game-container">
+      
+      <div class="list-container">
+          <h2 class="list-name mar-bottom-sm">
+            List <%= list %>
+          </h2>
+          <ol class="prompt-list" id="list">
+            <% for(i = 0; i < 12; i++) { %>
+              <li><%= data[i] %></li>
+            <% } %>
+          </ol>
+      </div>
+
+    <div class="control-container">
+      <div class="control-element"> 
+        <h2>The letter is</h2>
+        <div id="letter" class="letter mar-bottom"></div>
+        <a class="cta-btn" onclick="chooseLetter()">Roll again</a>  
+      </div>
+      <div class="control-element"> 
+         <% include partials/timer.ejs%>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <div class="centered">  
+    <% if (list < 18) { %>
+      <% let next = parseInt(list, 10) + 1 %>
+      <a href="/list/<%= next %>" class="cta-btn">Next Game!</a>
+    <% } else { %>
+      <h3>Game over!</h3>
+    <% }%>   
+  </div>
+
+  <script>
+      function chooseLetter() {
+        const letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "r", "s", "t", "w"];
+        let letter = letters[Math.floor(Math.random() * letters.length)];
+        $('#letter').html(letter)
+
+      }
+
+      $(document).ready(function() {
+        chooseLetter()
+      })
+    
+    </script>
+ <% include partials/footer.ejs%>
+
