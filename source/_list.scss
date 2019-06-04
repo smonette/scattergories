@@ -14,5 +14,7 @@
 .prompt-list li {
   padding-left: 10px;
   margin-bottom: 10px;
-  font-size: 20px;
+  @media screen and ($small-up) {
+    font-size: 20px;
+  }  
 }
