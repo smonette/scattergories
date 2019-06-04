@@ -1,0 +1,24 @@
+{
+  "name": "node-sass",
+  "version": "1.0.0",
+  "description": "Example project showing how to use node-sass",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-sass": "^4.12.0",
+    "node-sass-middleware": "^0.11.0",
+    "ejs": "^2.6.1"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "sass"
+  ],
+  "license": "MIT"
+}

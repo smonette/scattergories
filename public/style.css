@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,800&display=swap");
+.mar-bottom {
+  margin-bottom: 44px; }
+
+.mar-bottom-sm {
+  margin-bottom: 22px; }
+
+.centered {
+  text-align: center; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0; }
+
+.cta-btn {
+  display: inline-block;
+  padding: 22px 44px;
+  background-color: #ffbf00;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px; }
+
+/* parent container */
+.content-background {
+  background: #c40b13;
+  padding: 22px;
+  border-bottom: 2px solid #000; }
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    max-width: 900px;
+    margin-right: auto;
+    margin-bottom: 44px;
+    margin-left: auto;
+    padding: 22px; } }
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  @media screen and (min-width: 768px) {
+    .game-container {
+      flex-direction: row; } }
+
+/* Intro Page */
+.intro {
+  border: 4px solid black;
+  background: #fff;
+  padding: 44px; }
+
+.intro-nav {
+  text-align: center; }
+
+/* Prompt List */
+.list-container {
+  border: 4px solid black;
+  background: #fff;
+  padding: 44px; }
+  @media screen and (min-width: 768px) {
+    .list-container {
+      flex-grow: 2;
+      margin-right: 22px; } }
+
+.list-name {
+  text-align: center; }
+
+.prompt-list li {
+  padding-left: 10px;
+  margin-bottom: 10px;
+  font-size: 20px; }
+
+/* Game controls: random letter, timer  */
+.control-element {
+  border: 4px solid black;
+  background: #fff;
+  text-align: center;
+  padding: 44px;
+  flex-grow: 1; }
+  .control-element:first-of-type {
+    margin-bottom: 22px; }
+    @media screen and (max-width: 767px) {
+      .control-element:first-of-type {
+        margin-top: 22px; } }
+
+.time-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.letter {
+  font-size: 95px;
+  text-transform: uppercase;
+  font-weight: 800; }
+
+.clock-display {
+  font-size: 48px; }
+
+.timer-hide {
+  display: none; }
+
+.timer-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  font-size: 40px; }
+
+/* Navigate to other cards  */
+.nav {
+  text-align: center;
+  padding: 22px; }
+
+.nav-list {
+  list-style: none; }
+
+.nav-list li {
+  display: inline-block;
+  font-size: 20px; }
+
+.nav-list li a {
+  padding: 10px;
+  display: block;
+  color: #000; }
+
+footer {
+  background: #fff;
+  text-align: center; }

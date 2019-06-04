@@ -1,0 +1,44 @@
+.control-element {
+  @include box-style;
+  text-align: center;
+  padding: $space;
+  flex-grow:1;  
+  
+  &:first-of-type { 
+    margin-bottom: $space-sm;
+    
+    @media screen and ($small-only) {
+      margin-top: $space-sm;
+    }
+  }
+}
+
+.time-container {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.letter {
+  font-size: 95px;
+  text-transform: uppercase;
+  font-weight:800;
+}
+
+
+.clock-display {
+  font-size: 48px;
+}
+
+.timer-hide {
+  display:none;
+}
+
+.timer-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  font-size: 40px;
+}

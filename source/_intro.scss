@@ -1,0 +1,7 @@
+.intro {
+  @include box-style;
+  padding: $space;
+}
+.intro-nav {
+  text-align: center;
+}
