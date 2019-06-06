@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,800&display=swap");
 @media screen and (max-width: 767px) {
   ol, ul {
-    padding: 22px; } }
+    padding-right: 22px;
+    padding-left: 22px; } }
 
 ul > li,
 ol > li {
@@ -87,8 +88,10 @@ body {
 
 .prompt-list li {
   padding-left: 10px;
-  margin-bottom: 10px;
-  font-size: 20px; }
+  margin-bottom: 10px; }
+  @media screen and (min-width: 768px) {
+    .prompt-list li {
+      font-size: 20px; } }
 
 /* Game controls: random letter, timer  */
 .control-element {
@@ -108,13 +111,15 @@ body {
   flex-direction: column;
   justify-content: center; }
 
+.clock-display,
 .letter {
-  font-size: 95px;
   text-transform: uppercase;
+  font-size: 48px;
   font-weight: 800; }
-
-.clock-display {
-  font-size: 48px; }
+  @media screen and (min-width: 768px) {
+    .clock-display,
+    .letter {
+      font-size: 95px; } }
 
 .timer-hide {
   display: none; }

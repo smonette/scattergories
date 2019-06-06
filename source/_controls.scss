@@ -17,15 +17,16 @@
   flex-direction:column;
   justify-content: center;
 }
+
+
+.clock-display,
 .letter {
-  font-size: 95px;
   text-transform: uppercase;
-  font-weight:800;
-}
-
-
-.clock-display {
   font-size: 48px;
+  font-weight:800;
+  @media screen and ($small-up) {
+    font-size: 95px;
+  }
 }
 
 .timer-hide {

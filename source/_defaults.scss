@@ -28,7 +28,8 @@ $large-only:      "min-width: 992px";
 // Reset styles
 ol, ul {  
   @media screen and ($small-only) {
-    padding: $space-sm;
+    padding-right: $space-sm;
+    padding-left: $space-sm;
   }
 }
 ul > li,
